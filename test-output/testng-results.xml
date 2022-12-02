@@ -1,51 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-24T16:13:50 IST" name="Default suite" finished-at="2022-11-24T16:18:54 IST" duration-ms="303699">
+  <suite started-at="2022-12-02T17:29:57 IST" name="Default suite" finished-at="2022-12-02T17:31:38 IST" duration-ms="100757">
     <groups>
     </groups>
-    <test started-at="2022-11-24T16:13:50 IST" name="Default test" finished-at="2022-11-24T16:18:54 IST" duration-ms="303699">
+    <test started-at="2022-12-02T17:29:57 IST" name="Default test" finished-at="2022-12-02T17:31:38 IST" duration-ms="100757">
       <class name="com.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:13:50 IST" name="setup" finished-at="2022-11-24T16:14:43 IST" duration-ms="53034" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:29:57 IST" name="setup" finished-at="2022-12-02T17:30:00 IST" duration-ms="2583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:14:43 IST" name="loginPageTitleTest" finished-at="2022-11-24T16:14:43 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:14:43 IST" name="teardown" finished-at="2022-11-24T16:14:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:14:43 IST" name="setup" finished-at="2022-11-24T16:18:04 IST" duration-ms="200490" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="crmLogoImageTest()[pri:2, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:18:04 IST" name="crmLogoImageTest" finished-at="2022-11-24T16:18:04 IST" duration-ms="108" status="FAIL">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:00 IST" name="loginPageTitleTest" finished-at="2022-12-02T17:30:00 IST" duration-ms="31" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
+  (Session info: chrome=107.0.5304.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-52KAV6VB', ip: '10.129.8.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\patan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 387c8389e039ff9d210fc3609486f67e
-*** Element info: {Using=xpath, value=//img[@class='navbar-brand-img']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\patan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d301cc3f5db0a5cacd49bd85fbc0ca]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
+  (Session info: chrome=107.0.5304.122)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-52KAV6VB', ip: '10.129.8.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\patan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 387c8389e039ff9d210fc3609486f67e
-*** Element info: {Using=xpath, value=//img[@class='navbar-brand-img']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\patan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d301cc3f5db0a5cacd49bd85fbc0ca
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,15 +43,10 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
-at com.qa.webpages.LoginPage.validateApsbblogo(LoginPage.java:36)
-at com.testcases.LoginTest.crmLogoImageTest(LoginTest.java:41)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+at com.qa.webpages.LoginPage.validateLoginPageTitle(LoginPage.java:33)
+at com.testcases.LoginTest.loginPageTitleTest(LoginTest.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,20 +80,56 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:18:04 IST" name="teardown" finished-at="2022-11-24T16:18:04 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:00 IST" name="teardown" finished-at="2022-12-02T17:30:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:18:04 IST" name="setup" finished-at="2022-11-24T16:18:54 IST" duration-ms="49627" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:01 IST" name="setup" finished-at="2022-12-02T17:30:48 IST" duration-ms="47420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="FLOlogin()[pri:3, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:18:54 IST" name="FLOlogin" finished-at="2022-11-24T16:18:54 IST" duration-ms="382" status="PASS">
+        <test-method signature="FLOlogin(java.lang.String,java.lang.String)[pri:2, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:48 IST" name="FLOlogin" data-provider="getbioTestdata" finished-at="2022-12-02T17:30:48 IST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5146@r1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FLOlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@3ba9ad43]" started-at="2022-11-24T16:18:54 IST" name="teardown" finished-at="2022-11-24T16:18:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:48 IST" name="setup" finished-at="2022-12-02T17:31:38 IST" duration-ms="49779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:30:48 IST" name="teardown" finished-at="2022-12-02T17:30:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="FLOlogin(java.lang.String,java.lang.String)[pri:2, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:31:38 IST" name="FLOlogin" data-provider="getbioTestdata" finished-at="2022-12-02T17:31:38 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rafi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gfdhgjfjk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FLOlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.LoginTest@48ae9b55]" started-at="2022-12-02T17:31:38 IST" name="teardown" finished-at="2022-12-02T17:31:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
